@@ -1,0 +1,32 @@
+﻿Build started 09.06.2016 3:29:21.
+     1>Project "d:\VS Projects\Projects\UP_7\UP_7\UP_7.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         D:\Visual Studiu 2013\VC\bin\CL.exe /c /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\\" /AI"C:\Program Files (x86)\Windows Kits\8.1\References\CommonConfiguration\Neutral" /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\Facades\\" /Zi /clr /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _UNICODE /D UNICODE /EHa /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /TP /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\mscorlib.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Data.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Drawing.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Windows.Forms.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Xml.dll" /analyze- /errorReport:prompt /clr:nostdlib Circle.cpp MyForm.cpp Rectangle.cpp
+         Circle.cpp
+     1>Circle.cpp(6): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\Visual Studiu 2013\VC\include\string.h(112) : see declaration of 'strcpy'
+     1>Circle.cpp(17): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\Visual Studiu 2013\VC\include\string.h(112) : see declaration of 'strcpy'
+     1>Circle.cpp(30): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\Visual Studiu 2013\VC\include\string.h(112) : see declaration of 'strcpy'
+         MyForm.cpp
+         Rectangle.cpp
+     1>Rectangle.cpp(6): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\Visual Studiu 2013\VC\include\string.h(112) : see declaration of 'strcpy'
+     1>Rectangle.cpp(17): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\Visual Studiu 2013\VC\include\string.h(112) : see declaration of 'strcpy'
+     1>Rectangle.cpp(29): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\Visual Studiu 2013\VC\include\string.h(112) : see declaration of 'strcpy'
+         Generating Code...
+       Link:
+         D:\Visual Studiu 2013\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\VS Projects\Projects\UP_7\Debug\UP_7.exe" /INCREMENTAL /NOLOGO /ASSEMBLYRESOURCE:Debug\UP_7.MyForm.resources /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\VS Projects\Projects\UP_7\Debug\UP_7.pdb" /ASSEMBLYDEBUG /SUBSYSTEM:WINDOWS /TLBID:1 /ENTRY:"main" /DYNAMICBASE /FIXED:NO /NXCOMPAT /MACHINE:X86 Debug\Circle.obj
+         Debug\Figure.obj
+         Debug\MyForm.obj
+         Debug\Rectangle.obj
+         "Debug\.NETFramework,Version=v4.5.AssemblyAttributes.obj"
+         UP_7.vcxproj -> D:\VS Projects\Projects\UP_7\Debug\UP_7.exe
+     1>Done Building Project "d:\VS Projects\Projects\UP_7\UP_7\UP_7.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:07.35

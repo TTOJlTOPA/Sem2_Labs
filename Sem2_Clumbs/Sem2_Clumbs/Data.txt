@@ -1,0 +1,4 @@
+13;triangle;agapanthus, begonia, lily, rose 
+223;square;daisy, quince, rose
+34;  ellipse ; helenium, rose
+5; rectangle; rose 

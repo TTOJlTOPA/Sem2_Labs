@@ -1,0 +1,34 @@
+﻿Build started 13.06.2016 19:21:27.
+     1>Project "D:\VS Projects\Projects\Exam 13_06 WF\Exam 13_06 WF\Exam 13_06 WF.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         D:\Visual Studiu 2013\VC\bin\CL.exe /c /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\\" /AI"C:\Program Files (x86)\Windows Kits\8.1\References\CommonConfiguration\Neutral" /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\Facades\\" /Zi /clr /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CRT_SECURE_NO_WARNINGS /D _UNICODE /D UNICODE /EHa /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /TP /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\mscorlib.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Data.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Drawing.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Windows.Forms.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Xml.dll" /analyze- /errorReport:prompt /clr:nostdlib MyForm.cpp
+         MyForm.cpp
+     1>d:\vs projects\projects\exam 13_06 wf\exam 13_06 wf\MyForm.h(339): warning C4996: 'itoa': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _itoa. See online help for details.
+                 D:\Visual Studiu 2013\VC\include\stdlib.h(937) : see declaration of 'itoa'
+     1>d:\vs projects\projects\exam 13_06 wf\exam 13_06 wf\MyForm.h(341): warning C4996: 'itoa': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _itoa. See online help for details.
+                 D:\Visual Studiu 2013\VC\include\stdlib.h(937) : see declaration of 'itoa'
+     1>d:\vs projects\projects\exam 13_06 wf\exam 13_06 wf\MyForm.h(362): warning C4996: 'itoa': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _itoa. See online help for details.
+                 D:\Visual Studiu 2013\VC\include\stdlib.h(937) : see declaration of 'itoa'
+     1>d:\vs projects\projects\exam 13_06 wf\exam 13_06 wf\MyForm.h(364): warning C4996: 'itoa': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _itoa. See online help for details.
+                 D:\Visual Studiu 2013\VC\include\stdlib.h(937) : see declaration of 'itoa'
+     1>d:\vs projects\projects\exam 13_06 wf\exam 13_06 wf\MyForm.h(378): warning C4996: 'itoa': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _itoa. See online help for details.
+                 D:\Visual Studiu 2013\VC\include\stdlib.h(937) : see declaration of 'itoa'
+     1>d:\vs projects\projects\exam 13_06 wf\exam 13_06 wf\MyForm.h(380): warning C4996: 'itoa': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _itoa. See online help for details.
+                 D:\Visual Studiu 2013\VC\include\stdlib.h(937) : see declaration of 'itoa'
+     1>d:\vs projects\projects\exam 13_06 wf\exam 13_06 wf\MyForm.h(382): warning C4996: 'itoa': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _itoa. See online help for details.
+                 D:\Visual Studiu 2013\VC\include\stdlib.h(937) : see declaration of 'itoa'
+     1>d:\vs projects\projects\exam 13_06 wf\exam 13_06 wf\data.h(98): warning C4715: 'Data1<Fanat3>::operator[]' : not all control paths return a value
+     1>d:\vs projects\projects\exam 13_06 wf\exam 13_06 wf\data.h(98): warning C4715: 'Data1<Fanat1>::operator[]' : not all control paths return a value
+     1>d:\vs projects\projects\exam 13_06 wf\exam 13_06 wf\data.h(98): warning C4715: 'Data1<Fanat2>::operator[]' : not all control paths return a value
+       Link:
+         D:\Visual Studiu 2013\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\VS Projects\Projects\Exam 13_06 WF\Debug\Exam 13_06 WF.exe" /INCREMENTAL /NOLOGO /ASSEMBLYRESOURCE:Debug\Exam_13_06_WF.MyForm.resources /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\VS Projects\Projects\Exam 13_06 WF\Debug\Exam 13_06 WF.pdb" /ASSEMBLYDEBUG /SUBSYSTEM:WINDOWS /TLBID:1 /ENTRY:"main" /DYNAMICBASE /FIXED:NO /NXCOMPAT /MACHINE:X86 Debug\Fanat1.obj
+         Debug\Fanat2.obj
+         Debug\Fanat3.obj
+         Debug\MyForm.obj
+         "Debug\.NETFramework,Version=v4.5.AssemblyAttributes.obj"
+         Exam 13_06 WF.vcxproj -> D:\VS Projects\Projects\Exam 13_06 WF\Debug\Exam 13_06 WF.exe
+     1>Done Building Project "D:\VS Projects\Projects\Exam 13_06 WF\Exam 13_06 WF\Exam 13_06 WF.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.98

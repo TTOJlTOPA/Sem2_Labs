@@ -1,0 +1,22 @@
+﻿Build started 06.05.2016 9:58:37.
+     1>Project "D:\VS Projects\Projects\UP_5\UP_5\UP_5.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         D:\Visual Studiu 2013\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Main.cpp
+         Main.cpp
+     1>d:\vs projects\projects\up_5\up_5\main.cpp(61): warning C4101: 'rect' : unreferenced local variable
+     1>d:\vs projects\projects\up_5\up_5\main.cpp(133): warning C4244: 'initializing' : conversion from 'double' to 'int', possible loss of data
+     1>d:\vs projects\projects\up_5\up_5\main.cpp(136): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>d:\vs projects\projects\up_5\up_5\main.cpp(137): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>d:\vs projects\projects\up_5\up_5\main.cpp(139): warning C4244: 'initializing' : conversion from 'double' to 'int', possible loss of data
+     1>d:\vs projects\projects\up_5\up_5\main.cpp(142): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>d:\vs projects\projects\up_5\up_5\main.cpp(143): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>d:\vs projects\projects\up_5\up_5\main.cpp(193): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>d:\vs projects\projects\up_5\up_5\main.cpp(198): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+       Link:
+         D:\Visual Studiu 2013\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\VS Projects\Projects\UP_5\Debug\UP_5.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\VS Projects\Projects\UP_5\Debug\UP_5.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\VS Projects\Projects\UP_5\Debug\UP_5.lib" /MACHINE:X86 Debug\Main.obj
+         UP_5.vcxproj -> D:\VS Projects\Projects\UP_5\Debug\UP_5.exe
+     1>Done Building Project "D:\VS Projects\Projects\UP_5\UP_5\UP_5.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.60

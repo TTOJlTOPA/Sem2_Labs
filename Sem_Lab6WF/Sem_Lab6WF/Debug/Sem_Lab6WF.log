@@ -1,0 +1,21 @@
+﻿Build started 12.06.2016 13:22:28.
+     1>Project "D:\VS Projects\Projects\Sem_Lab6WF\Sem_Lab6WF\Sem_Lab6WF.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         D:\Visual Studiu 2013\VC\bin\CL.exe /c /Zi /clr /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _UNICODE /D UNICODE /EHa /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /TP /analyze- /errorReport:prompt "C:\Users\Валерий\AppData\Local\Temp\.NETFramework,Version=v4.5.AssemblyAttributes.cpp"
+         .NETFramework,Version=v4.5.AssemblyAttributes.cpp
+       Link:
+         D:\Visual Studiu 2013\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\VS Projects\Projects\Sem_Lab6WF\Debug\Sem_Lab6WF.exe" /INCREMENTAL /NOLOGO /ASSEMBLYRESOURCE:Debug\Sem_Lab6WF.MyForm.resources /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\VS Projects\Projects\Sem_Lab6WF\Debug\Sem_Lab6WF.pdb" /ASSEMBLYDEBUG /SUBSYSTEM:WINDOWS /TLBID:1 /ENTRY:"main" /DYNAMICBASE /FIXED:NO /NXCOMPAT /MACHINE:X86 Debug\ABS_LIB.obj
+         Debug\MyForm.obj
+         Debug\S1.obj
+         Debug\S2.obj
+         Debug\S3.obj
+         Debug\Stud1.obj
+         Debug\Stud2.obj
+         Debug\Stud3.obj
+         "Debug\.NETFramework,Version=v4.5.AssemblyAttributes.obj"
+         Sem_Lab6WF.vcxproj -> D:\VS Projects\Projects\Sem_Lab6WF\Debug\Sem_Lab6WF.exe
+     1>Done Building Project "D:\VS Projects\Projects\Sem_Lab6WF\Sem_Lab6WF\Sem_Lab6WF.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:05.70

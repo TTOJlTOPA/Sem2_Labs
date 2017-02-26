@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="ABS_LIB" Collapsed="true">
+    <Position X="5.75" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAABAAAAIAAAAAAAAAAgAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ABS_LIB.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Stud1" Collapsed="true">
+    <Position X="3.25" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIABAAABAAAAJEAAAAAAAAAgAAAAAAAAAAIAAAA=</HashCode>
+      <FileName>Stud1.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Stud2" Collapsed="true">
+    <Position X="5.75" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAABAIABAAAAJAAAAAAAAAAgAAAAAAAAAAIAAAA=</HashCode>
+      <FileName>Stud2.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Stud3" Collapsed="true">
+    <Position X="8.5" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAABAAABAAAAJAAAAAAAAAAwAAAAAAAAAAIAAAA=</HashCode>
+      <FileName>Stud3.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

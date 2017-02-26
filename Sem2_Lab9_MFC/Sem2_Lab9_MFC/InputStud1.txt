@@ -1,0 +1,5 @@
+Petrov		10000
+Ivanov		35000
+Sidorov		100000
+Max			363824
+Den			23467

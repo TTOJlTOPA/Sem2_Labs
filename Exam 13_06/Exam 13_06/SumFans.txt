@@ -1,0 +1,10 @@
+Britain	Bjarne V.Straustrup	1980	0	3
+
+Russia	Ivanov Ivan Ivanovich	1979	12345	6
+
+France	Jule Vern	1982	0	0
+
+	Me Brown	0	54321	2
+
+	Bruce Eckel	0	23456	2
+

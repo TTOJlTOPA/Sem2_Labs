@@ -1,0 +1,48 @@
+﻿Build started 04.05.2016 20:17:35.
+     1>Project "D:\VS Projects\Projects\Sem2_Lab6\Sem2_Lab6\Sem2_Lab6.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         D:\Visual Studiu 2013\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt S1.cpp S2.cpp S3.cpp
+         S3.cpp
+     1>d:\vs projects\projects\sem2_lab6\sem2_lab6\s3.cpp(10): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\visual studiu 2013\vc\include\string.h(112) : see declaration of 'strcpy'
+     1>d:\vs projects\projects\sem2_lab6\sem2_lab6\s3.cpp(11): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\visual studiu 2013\vc\include\string.h(112) : see declaration of 'strcpy'
+     1>d:\vs projects\projects\sem2_lab6\sem2_lab6\s3.cpp(16): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\visual studiu 2013\vc\include\string.h(112) : see declaration of 'strcpy'
+     1>d:\vs projects\projects\sem2_lab6\sem2_lab6\s3.cpp(17): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\visual studiu 2013\vc\include\string.h(112) : see declaration of 'strcpy'
+     1>d:\vs projects\projects\sem2_lab6\sem2_lab6\s3.cpp(28): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\visual studiu 2013\vc\include\string.h(112) : see declaration of 'strcpy'
+     1>d:\vs projects\projects\sem2_lab6\sem2_lab6\s3.cpp(30): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\visual studiu 2013\vc\include\string.h(112) : see declaration of 'strcpy'
+         S2.cpp
+     1>d:\vs projects\projects\sem2_lab6\sem2_lab6\s2.cpp(9): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\visual studiu 2013\vc\include\string.h(112) : see declaration of 'strcpy'
+     1>d:\vs projects\projects\sem2_lab6\sem2_lab6\s2.cpp(13): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\visual studiu 2013\vc\include\string.h(112) : see declaration of 'strcpy'
+     1>d:\vs projects\projects\sem2_lab6\sem2_lab6\s2.cpp(23): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\visual studiu 2013\vc\include\string.h(112) : see declaration of 'strcpy'
+         S1.cpp
+     1>d:\vs projects\projects\sem2_lab6\sem2_lab6\s1.cpp(9): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\visual studiu 2013\vc\include\string.h(112) : see declaration of 'strcpy'
+     1>d:\vs projects\projects\sem2_lab6\sem2_lab6\s1.cpp(14): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\visual studiu 2013\vc\include\string.h(112) : see declaration of 'strcpy'
+     1>d:\vs projects\projects\sem2_lab6\sem2_lab6\s1.cpp(25): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\visual studiu 2013\vc\include\string.h(112) : see declaration of 'strcpy'
+         Generating Code...
+       Link:
+         D:\Visual Studiu 2013\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\VS Projects\Projects\Sem2_Lab6\Debug\Sem2_Lab6.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\VS Projects\Projects\Sem2_Lab6\Debug\Sem2_Lab6.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\VS Projects\Projects\Sem2_Lab6\Debug\Sem2_Lab6.lib" /MACHINE:X86 Debug\ABS_LIB.obj
+         Debug\Main.obj
+         Debug\S1.obj
+         Debug\S2.obj
+         Debug\S3.obj
+         Debug\Stud1.obj
+         Debug\Stud2.obj
+         Debug\Stud3.obj
+     1>MSVCRTD.lib(crtexew.obj) : error LNK2019: unresolved external symbol _WinMain@16 referenced in function ___tmainCRTStartup
+     1>D:\VS Projects\Projects\Sem2_Lab6\Debug\Sem2_Lab6.exe : fatal error LNK1120: 1 unresolved externals
+     1>Done Building Project "D:\VS Projects\Projects\Sem2_Lab6\Sem2_Lab6\Sem2_Lab6.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:02.57

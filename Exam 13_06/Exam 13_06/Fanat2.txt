@@ -1,0 +1,10 @@
+3
+Bruce Eckel
+23456
+2
+Ivanov Ivan Ivanovich
+12345
+1
+Me Brown
+54321
+2

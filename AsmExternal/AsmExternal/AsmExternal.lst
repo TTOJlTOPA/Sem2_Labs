@@ -1,0 +1,109 @@
+Microsoft (R) Macro Assembler Version 12.00.21005.1	    04/06/16 18:26:16
+Asmblr.asm						     Page 1 - 1
+
+
+				.686
+				.model flat
+ 00000000			.data
+ 00000000 00000000		tmp dd 0
+ 00000004 00000000		count dd 0
+ 00000008 00000000		del dd 0
+ 00000000			.code
+				Public _func1
+ 00000000			_func1 proc
+ 00000000  55			        push ebp
+ 00000001  8B EC		        mov ebp,esp
+ 00000003  8B 4D 08				mov ecx, [ebp + 8]
+ 00000006  8B 75 0C				mov esi, [ebp + 12]
+ 00000009  41				inc ecx
+ 0000000A  BB 00000002			mov ebx, 2
+ 0000000F			for_ :
+ 0000000F  8B C3			mov eax, ebx
+ 00000011  89 06			mov [esi], eax
+ 00000013  43				inc ebx
+ 00000014  83 C6 04			add esi, 4
+ 00000017  E2 F6		loop for_
+ 00000019  5D				pop ebp
+ 0000001A  C3				ret 
+ 0000001B			_func1 endp
+
+				Public @func2@8
+ 0000001B			@func2@8 proc      
+				        ;mov edi, ecx
+ 0000001B  8B F2				mov esi, edx
+ 0000001D  41				inc ecx
+ 0000001E  BB 00000002			mov ebx, 2
+ 00000023			for_ :
+ 00000023  8B C3			mov eax, ebx
+ 00000025  89 06			mov [esi], eax
+ 00000027  43				inc ebx
+ 00000028  83 C6 04			add esi, 4
+ 0000002B  E2 F6		loop for_
+ 0000002D  C3				ret
+ 0000002E			@func2@8 endp
+
+				Public _func3@8
+ 0000002E			_func3@8 proc
+ 0000002E  55			        push ebp
+ 0000002F  8B EC		        mov ebp,esp
+ 00000031  8B 4D 08				mov ecx, [ebp + 8]
+ 00000034  8B 75 0C				mov esi, [ebp + 12]
+ 00000037  41				inc ecx
+ 00000038  BB 00000002			mov ebx, 2
+ 0000003D			for_ :
+ 0000003D  8B C3			mov eax, ebx
+ 0000003F  89 06			mov [esi], eax
+ 00000041  43				inc ebx
+ 00000042  83 C6 04			add esi, 4
+ 00000045  E2 F6		loop for_
+ 00000047  5D			  pop ebp
+ 00000048  C2 0008		  ret 8  
+ 0000004B			_func3@8 endp
+
+				end
+Microsoft (R) Macro Assembler Version 12.00.21005.1	    04/06/16 18:26:16
+Asmblr.asm						     Symbols 2 - 1
+
+
+
+
+Segments and Groups:
+
+                N a m e                 Size     Length   Align   Combine Class
+
+FLAT . . . . . . . . . . . . . .	GROUP
+_DATA  . . . . . . . . . . . . .	32 Bit	 0000000C Para	  Public  'DATA'	
+_TEXT  . . . . . . . . . . . . .	32 Bit	 0000004B Para	  Public  'CODE'	
+
+
+Procedures, parameters, and locals:
+
+                N a m e                 Type     Value    Attr
+
+@func2@8 . . . . . . . . . . . .	P Near	 0000001B _TEXT	Length= 00000013 Public
+  for_ . . . . . . . . . . . . .	L Near	 00000023 _TEXT	
+_func1 . . . . . . . . . . . . .	P Near	 00000000 _TEXT	Length= 0000001B Public
+  for_ . . . . . . . . . . . . .	L Near	 0000000F _TEXT	
+_func3@8 . . . . . . . . . . . .	P Near	 0000002E _TEXT	Length= 0000001D Public
+  for_ . . . . . . . . . . . . .	L Near	 0000003D _TEXT	
+
+
+Symbols:
+
+                N a m e                 Type     Value    Attr
+
+@CodeSize  . . . . . . . . . . .	Number	 00000000h   
+@DataSize  . . . . . . . . . . .	Number	 00000000h   
+@Interface . . . . . . . . . . .	Number	 00000000h   
+@Model . . . . . . . . . . . . .	Number	 00000007h   
+@code  . . . . . . . . . . . . .	Text   	 _TEXT
+@data  . . . . . . . . . . . . .	Text   	 FLAT
+@fardata?  . . . . . . . . . . .	Text   	 FLAT
+@fardata . . . . . . . . . . . .	Text   	 FLAT
+@stack . . . . . . . . . . . . .	Text   	 FLAT
+count  . . . . . . . . . . . . .	DWord	 00000004 _DATA	
+del  . . . . . . . . . . . . . .	DWord	 00000008 _DATA	
+tmp  . . . . . . . . . . . . . .	DWord	 00000000 _DATA	
+
+	   0 Warnings
+	   0 Errors
